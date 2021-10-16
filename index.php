@@ -1,6 +1,7 @@
 <!DOCTYPE html5>
 <html>
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bs5/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="fa/css/all.min.css">
         <title>
@@ -12,12 +13,12 @@
 
         <style>
             body{
+                background-color: #f5f5f5;
                 background-image:url("svg/bottom_waves.svg");
-                background-size:contain;
+                background-size:100%;
                 background-repeat: no-repeat;
-                background-position: center bottom;
-                padding: 10%;
-                bottom:0;
+                background-position: bottom;
+                padding: 40px;
             }
         </style>
     </head>
@@ -34,61 +35,16 @@
                 Ordinary student who like IT stuff, especially Android Application Development.
             </p>
         </div>
-        <div class="d-flex justify-content-center mt-3">
-            <div class="row">
-                <div class="col-md">
-                    <i class="fab fa-android fa-4x" style="color:lime;">
-                    </i>
-                </div>
-                <div class="col-md">
-                    <i class="fab fa-html5 fa-4x" style="color: darkred;">
-                    </i>
-                </div>
-                <div class="col-md">
-                    <i class="fab fa-java fa-4x" style="color: red;">
-                    </i>
-                </div>
-                <div class="col-md">
-                    <i class="fab fa-css3 fa-4x" style="color: blue;">
-                    </i>
+    </div>
+        <footer class="footer fixed-bottom mb-3">
+            <div class="float-end" style="margin-right: 50px;">
+                <div class="container" >
+                    <h3 class="text-white font-weight-bold"> Social </h3>
+                    <a href="https://facebook.com/rizal.lolicondesu" target="_blank"><i class="fab fa-facebook fa-2x text-white"></i></a>
+                    <a href="https://github.com/zal-byte" target="_blank"><i class="fab fa-github fa-2x text-white"></i></a>
+                    <a href="https://wa.me/+6289671149911" target="_blank"><i class="fab fa-whatsapp fa-2x text-white"></i></a>
                 </div>
             </div>
-        </div>
-
-        <div class="d-flex justify-content-center">
-            <div class="row">
-                <div class="col-md">
-                    <i class="fab fa-python fa-4x" style="color:lightblue">
-                    </i>
-                </div>
-                <div class="col-md">
-                    <i class="fab fa-php fa-4x" style="color:blue;">
-                    </i>
-                </div>
-                <div class="col-md">
-                    <i class="fab fa-js fa-4x" style="color: orange;">
-                    </i>
-                </div>
-            </div>
-        </div>
-
-        <br/>
-        <div class="float-end" style="margin-top:100px;" >
-                     <h4 class="font-weight-bold text-white"> Contact Me </h4>
-                    <div class="row">
-                        <div class="col-md">
-                            <a target="_blank" href="https://facebook.com/rizal.lolicondesu"><i class="fab fa-facebook fa-2x text-white">
-                            </i></a>
-                        </div>
-                        <div class="col-md">
-                            <a target="_blank" href="https://github.com/zal-byte"><i class="fab fa-github fa-2x text-white">
-                             </i></a>
-                        </div>
-                        <div class="col-md">
-                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B6289671149911&text=hello&app_absent=0"><i class="fab fa-whatsapp fa-2x text-white">
-                             </i></a>
-                        </div>
-                     </div>
-        </div>
+        </footer>
     </body>
 </html>
